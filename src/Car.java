@@ -12,5 +12,15 @@ public class Car {
         return "Марка автомобиля - " + brand + " ,модель - " + model + " ,объем двигателя - " + engineVolume +
                 " ,цвет -" + color + " ,год выпуска - " + productionYear +
                 " ,страна производства - " + origin;
+
+
+    }
+        public Car(String brand, String model, double engineVolume, String color, int productionYear, String origin) {
+        this.brand = brand;
+        this.model = model;
+        this.engineVolume = engineVolume;
+        this.color = color;
+        this.productionYear = productionYear;
+        this.origin = origin;
     }
 }
